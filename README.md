@@ -16,7 +16,7 @@ Click the deployed link below to see the actual site!
 
 ## Deployed Link
 
-* [See Live Site](#)
+* [See Live Site](https://eajayd.github.io/code-refactor-horiseon/)
 
 ## Snippet of Code
 
