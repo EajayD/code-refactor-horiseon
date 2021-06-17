@@ -4,10 +4,12 @@
     margin: 0;
 }
 
+/* makes background color of entire page = #d9dcd6 */
 body {
     background-color: #d9dcd6;
 }
 
+/* creates a top block in size of 20px with color #2a607c with the font of Trebuchet and text color of #ffffff */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +17,18 @@ header {
     color: #ffffff;
 }
 
+/* allows h1 to stay within the block while also being in line with other elements contained within the header */
 h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* changes color of specific class */
 .seo {
     color: #d9dcd6;
 }
 
+/* elements within will be spaced apart, aligned to the right side of the page */
 nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,24 +37,29 @@ nav {
     font-size: 20px;
 }
 
+/* no marker will be shown for listed items */
 ul {
     list-style-type: none;
 }
 
+/* allows element to stay within the block while also being in line with other elements contained within the header*/
 li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* changes text color to white, no fancy stylings */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* changes font size to 16px */
 p {
     font-size: 16px;
 }
 
+/* image will be centered and cover the background; will be spaced 25px from the following content */
 .hero {
     height: 800px;
     width: 100%;
@@ -59,22 +69,27 @@ p {
     background-position: center;
 }
 
+/* element will float left of container */
 #float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* element will float right of container */
 #float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* class will only take up 75% of the page in width; will allow elements to stay inline within the block; spaced on the left by 20px */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* creates a #0072bb colored block 300px in height, everything contained within the class will have a font of
+Gill Sans and a text color of #ffffff */
 .general-info {
     margin-bottom: 20px;
     padding: 50px;
@@ -84,15 +99,20 @@ p {
     color: #ffffff;
 }
 
+/* image will be capped at 200px regardless of original resolution */
 .general-info img {
     max-height: 200px;
 }
 
+/* creates space under the h2 and changes font size to 36px */
 h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* class will be spaced 20px from the right of the entire page; have 20px of space within the block; 
+will not allow elements to float left or right of container; class will float right of page; 
+creates a #2589bd colored block  */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -104,22 +124,28 @@ h2 {
     background-color: #2589bd;
 }
 
+/* spaced 32px from bottom, text within will be colored #ffffff */
 .benefit-general {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* spaced 10px from bottom, text aligned will be centered */
 h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* allows image within the benefit-general class to be displayed as its own block;
+ width is capped at 150px regardless of original resolution; spaced 10px on all sides */
 .benefit-general img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* creates 30px of space around element; does not allow elements to float on the right or left sides
+centers text with a font of Trebuchet MS */
 footer {
     padding: 30px;
     clear: both;
@@ -127,6 +153,7 @@ footer {
     text-align: center;
 }
 
+/* changes the font size of the h2 within the footer to 20px */
 footer h2 {
     font-size: 20px;
 }
